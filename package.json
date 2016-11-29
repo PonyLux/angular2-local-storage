@@ -1,0 +1,25 @@
+{
+  "name": "angular2-local-storage",
+  "version": "0.1.0",
+  "description": "Manage interaction with the local storage",
+  "main": "index.ts",
+  "module": "index.ts",
+  "typings": "index.d.ts",
+  "author": "benjamin.clermont59@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "doc": "./node_modules/.bin/compodoc -p tsconfig.json -s"
+  },
+  "dependencies": {
+    "@angular/core": "2.1.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.21"
+  },
+  "devDependencies": {
+    "compodoc": "0.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.dvpt.nordnet.fr:7999/nem/common.git"
+  }
+}
